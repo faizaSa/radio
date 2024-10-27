@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+   background-image: url(./background-nature-flower-mexican-aster-purple-flowers-background-blur-wallpaper-flower-space-for-text-free-photo.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+}
+
+.container{
+    height: auto;
+    width: 50%;
+    background-color:#d3b6df;
+    margin: 30px;
+    margin-left: 350px;
+    margin-top: 80px;
+    padding: 20px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    cursor: pointer;
+    transition: 5s;
+    box-shadow: 0 0 35px bisque ;
+    font-size: xx-large;
+font-family: 'Times New Roman', Times, serif;
+border: 4px inset purple ;
+border: 4px outset purple;
+}
+input{
+   
+    height: 30px;
+    width: 30px;
+   
+}
+
+
+.radio-item h1{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-align: center;
+
+}
+.radio-item p{
+font-size: 30px;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-weight: lighter;
+text-align: center;
+}
+.radio-item h5{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    color: coral;
+}
+
+input[type="radio"]:checked:before{
+    accent-color: #1b4f72 ;
+    border:3px solid #17a589;
+ 
+   
+ }
+ 
+ input[type="radio"]:checked {
+    accent-color:#a2d9ce ;
+   border: 3px solid #1b4f72;
+ 
+ 
+   
+   
+ } 
+ .style{
+    
+    margin-left: 250px;
+
+   
+}
